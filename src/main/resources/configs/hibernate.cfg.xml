@@ -5,7 +5,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">org.postgresql.Driver</property>
-        <property name="connection.url">jdbc:postgresql://localhost:5432/postgres?currentSchema=hiber</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/postgres?currentSchema=shop</property>
         <property name="connection.username">postgres</property>
         <property name="connection.password">123</property>
         <property name="connection.pool_size">8</property>
@@ -13,6 +13,8 @@
         <property name="show_sql">true</property>
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="ru.gb.hibernate.model.Product"/>
+<!--        <mapping class="ru.gb.homeWork.product.Products"/>-->
+<!--        <mapping class="ru.gb.homeWork.sale.Sales"/>-->
+<!--        <mapping class="ru.gb.homeWork.user.Users"/>-->
     </session-factory>
 </hibernate-configuration>
